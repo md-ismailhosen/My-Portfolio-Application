@@ -1,0 +1,324 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* dashborad */
+.ps-ts-card{
+    padding:5px;
+    width: 600px;
+    border:1px #00f2ff;
+}
+
+.project-card{
+    border-radius: 15px;
+    padding: 25px;
+}
+
+/* Hover effect */
+.project:hover {
+    background-color: #6520a6;
+    /* blue */
+    transform: translateY(-2px);
+    /* move up 2px */
+}
+
+/* //......navber */
+
+/* reg & log */
+.reg-log{
+    position: relative;
+    top: 20px;
+
+}
+
+/* footer */
+.footer{
+    position: absolute;
+    
+}
+/* .......About....... */
+.about{
+    position: relative;
+    justify-items: center;
+    margin-top: 40px;
+}
+.aboutPhoto{
+    height: 300px;
+    width: 300px;
+}
+#img{
+    margin-top: 20px;
+}
+
+
+
+
+/* //register section */
+
+.padding-form {
+    padding: 10px;
+}
+
+:root {
+    --bg-color: #e0e5ec;
+    --electric-glow: #00f2ff;
+    --success-color: #2ecc71;
+    --emboss-light: #ffffff;
+    --emboss-shadow: #a3b1c6;
+    --text-color: #4a5568;
+}
+
+
+
+
+
+/* register-form */
+.register-form {
+    width: 100%;
+    height: 480px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px var(--emboss-shadow),
+        -1px -1px 4px var(--emboss-light);
+    transition: all 0.2s ease;
+}
+
+.register-form:active {
+    box-shadow: inset 4px 4px 8px var(--emboss-shadow),
+        inset -4px -4px 8px var(--emboss-light);
+    transform: scale(0.98);
+}
+
+.rbn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px var(--emboss-shadow),
+        -2px -2px 2px 4var(--emboss-light);
+    transition: all 0.2s ease;
+}
+
+.rbn:active {
+    box-shadow: inset 1px 1px 2px var(--emboss-shadow),
+        inset -1px -1px 2px var(--emboss-light);
+    transform: scale(0.98);
+}
+
+/* Electric Border Wrapper */
+.reg {
+    margin-top: 20px;
+    position: relative;
+    padding: 3px;
+    border-radius: 24px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Electric RGB Border */
+.reg::before {
+    content: "";
+    position: absolute;
+    inset: -200%;
+    background: conic-gradient(rgb(255, 0, 0),
+            rgb(255, 255, 0),
+            rgb(0, 255, 0),
+            rgb(0, 255, 255),
+            rgb(0, 0, 255),
+            rgb(255, 0, 255),
+            rgb(255, 0, 0));
+    animation: rotate 4s linear infinite;
+}
+
+/* Inner Form */
+.reg::after {
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: #111827;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+/* Keep content above border */
+.reg .card-body {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* add this */
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* .......profileImage */
+
+.home {
+    height: 1200px;
+    width: auto;
+    padding: 1px;
+    margin-left: 15px;
+
+}
+
+.name {
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.se{
+    font-size: 30px;
+}
+.see{
+    font-size: 25px;
+   
+}
+
+/* button */
+.button{
+    margin-top: 10px;
+    margin-left: 28px;
+    
+}
+.custom-btn {
+    padding: 10px 20px;
+
+    background: linear-gradient(135deg, #0de189, #00bfff);
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+    font-family: 'Poppins', sans-serif;
+
+    border: none;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    box-shadow: 0px 5px 15px rgba(13, 225, 137, 0.4);
+
+    transition: all 0.3s ease-in-out;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+}
+
+.custom-btn:hover {
+    transform: translateY(-4px) scale(1.03);
+
+    box-shadow: 0px 10px 25px rgba(13, 225, 137, 0.7);
+
+    background: linear-gradient(135deg, #00bfff, #0de189);
+}
+
+.custom-btn:active {
+    transform: scale(0.96);
+}
+
+.names {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(225, 179, 13);
+
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    text-shadow: 0px 4px 10px rgba(13, 225, 137, 0.4);
+
+    transition: 0.3s ease-in-out;
+}
+
+.names:hover {
+    color: white;
+
+    text-shadow: 0px 4px 20px rgba(13, 225, 137, 0.8);
+
+    transform: scale(1.05);
+}
+
+.profileImage {
+    position: relative;
+    top: 30px;
+    padding: 5px;
+    height: 250px;
+    width: 250px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 3px solid #00ffff;
+
+    box-shadow:
+        0 0 8px #00ffff,
+        0 0 18px #00ffff,
+        0 0 35px rgba(0, 255, 255, 0.7);
+
+    transition: 0.4s ease;
+}
+
+
+/* Hover Glow Effect */
+
+.profileImage:hover {
+    transform: scale(1.05);
+
+    box-shadow:
+        0 0 12px #00ffff,
+        0 0 28px #00ffff,
+        0 0 50px rgba(0, 255, 255, 0.9);
+}

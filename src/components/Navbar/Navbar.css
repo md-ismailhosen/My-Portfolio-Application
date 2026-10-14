@@ -1,0 +1,44 @@
+.menu a.active{
+    text-decoration: underline;
+}
+.navbar-hover{
+    background-color: rgb(134, 24, 142);
+}
+.hover:hover{
+    background-color: rgba(237, 135, 10, 0.97);
+}
+
+
+
+.nav-glass{
+        height: 10%;
+        position: fixed;
+        top:1px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        
+
+        padding: 14px 2px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        border-radius: 5px;
+
+        background: rgba(255, 255, 255, 0.08);
+
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+
+        border: 1px solid rgba(255, 255, 255, 0.335);
+
+        box-shadow:
+            0 8px 32px rgba(0, 0, 0, 0.25),
+            inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+        z-index: 1000;
+    }
+
+    

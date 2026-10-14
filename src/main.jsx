@@ -8,7 +8,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
 import AuthProvider from './context/AuthProvider/AuthProvider';
-import './icons/iconLibrary'
+import "./Icons/iconLibrary.js";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Skill from './components/Skill/Skill';
 

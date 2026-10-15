@@ -1,4 +1,4 @@
-```jsx
+
 import React, { use } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import Swal from 'sweetalert2';
@@ -273,4 +273,3 @@ const Login = () => {
 };
 
 export default Login;
-```

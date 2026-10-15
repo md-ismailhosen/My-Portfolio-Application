@@ -17,8 +17,8 @@ export default function Dashboard() {
 
     const projects = [
         {
-            image: "https://media.istockphoto.com/id/1411225550/photo/portrait-of-teenage-girl-petting-golden-retriever-outside-in-sunset.jpg?s=612x612&w=0&k=20&c=61X2FfwSSyaL9TCXWjKyEdqTxUlOdqD_IM6BaHhlDHc=",
-            title: "PetCare Mobile App",
+            image: "https://miro.medium.com/v2/resize:fit:828/format:webp/1*_pCEmeOrVkayCFER33o4Cw.jpeg",
+            title: "BrainTumorDetection",
             tech: "Flutter, Firebase, MongoDB",
             status: "Completed",
             project_live_demo: "",
